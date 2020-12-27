@@ -2,3 +2,32 @@
     padding: 3em 0 0 0;
     text-align: center;
 }
+.row > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+.row > div:hover {
+    cursor: pointer;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row {
+    margin: 0 auto;
+    width: 302px;
+}
+.top {
+    border-bottom: 1px solid black;
+}
+.lower {
+    border-top: 1px solid black;
+}
+.left {
+    border-right: 1px solid black;
+}
+.right {
+    border-left: 1px solid black;
+}
