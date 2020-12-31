@@ -6,6 +6,8 @@
     float: left;
     height: 100px;
     width: 100px;
+    font-size: 75px;
+    line-height: 100px;
 }
 .row > div:hover {
     cursor: pointer;
