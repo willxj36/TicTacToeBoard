@@ -7,7 +7,7 @@ for (i = 0; i < cells.length ; i++) {
 let whoseTurn = [];
 
 function cellClicked () {
-    if() { 
+    if(event.target.textContent !== "X" && event.target.textContent !== "O") { 
         whoseTurn.push(1);
         if (whoseTurn.length % 2 == 0) {
             event.target.textContent = "X";
